@@ -233,6 +233,8 @@ select:focus {
   background-color: #4e565a;
   color: white;
   font-weight: 3rem;
+  box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.5),
+    3px 5px 8px rgba(0, 0, 0, 0.8);
 }
 
 /* media query styles */
