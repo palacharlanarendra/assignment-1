@@ -5,20 +5,20 @@ function App() {
   return (
     <body>
       <header>
-        <div className='container'>
-          <section className='nav__bar'>
+        <div class='container'>
+          <section class='nav__bar'>
             <figure>
               <img
                 src='https://onward.masaischool.com/static/media/Brand-identity_3.ea915f3a.svg'
                 alt='masai logo'
               />
             </figure>
-            <div className='account__details'>
+            <div class='account__details'>
               <p>
                 <span>Already have an account?</span>{' '}
                 <a href='https://onward.masaischool.com/signin'>Sign In</a>
               </p>
-              <figure className='absolute__figure'>
+              <figure class='absolute__figure'>
                 <img
                   src='https://onward.masaischool.com/static/media/brand-streak.10cf60be.svg'
                   alt='edge'
@@ -29,12 +29,12 @@ function App() {
         </div>
       </header>
       <main>
-        <div className='container'>
-          <article className='article__section'>
-            <form className='form padding__height__20 shadow' action=''>
-              <fieldset className='form__fieldset'>
-                <h2 className='text__align padding__height__20 font-serif'>
-                  Welcome
+        <div class='container'>
+          <article class='article__section'>
+            <form class='form padding__height__20 shadow'>
+              <fieldset class='form__fieldset'>
+                <h2 class='text__align padding__height__20 font-serif'>
+                  Redirected to new page
                 </h2>
                 <input type='email' placeholder='Email address' name='email' />
                 <input type='tel' placeholder='Phone number' name='tel' />
@@ -46,8 +46,8 @@ function App() {
                   <option value='opel'>Opel</option>
                   <option value='audi'>Audi</option>
                 </select>
-                <a href='./redirect.js' className='text__align'>
-                  <input type='submit' value='Submit' className='submit__btn' />
+                <a href='./redirect.js' class='text__align'>
+                  <input type='submit' value='Submit' class='submit__btn' />
                 </a>
               </fieldset>
             </form>
